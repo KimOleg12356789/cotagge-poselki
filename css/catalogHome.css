@@ -1,0 +1,259 @@
+.social-like span {
+    display: none;
+}
+
+.catalogHome-cottages {
+    margin-top: -212px;
+    padding: 28px 0 100px 0;
+    background-color: #fff;
+}
+
+.header-cover_catalogHome {
+    padding: 207px 0 100px 0;
+    background: url(../images/catalogHome/catalogHome-img.png) 0 0 no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover; 
+}
+
+.header-cover_catalog_title {
+    color: #fff;
+    font-size: 59px;
+    margin-bottom: 15px;
+}
+
+.header-cover_descr {
+    color: #fff;
+}
+
+.header-cover_catalogHome .container {
+    margin-bottom: 100px;
+}
+
+.catalogHome-cottages .cottages__content {
+    margin-bottom: 79px;
+}
+
+.header-cover_catalogHome .header-cover_descr {
+    margin-bottom: 22px;
+}
+
+.catalogHome-cottages .privileges__link {
+    display: none;
+}
+
+.catalogHome-cottages .slider-built-cottages {
+    height: 742px;
+}
+
+.catalogHome-cottages .slider-projects-home {
+    height: 742px;
+}
+
+/* CATALOGHOME - STAGES */
+
+.stages-mobile {
+    display: none;
+}
+
+.stages {
+    overflow: hidden;
+    background-color: #f0f4fb;
+}
+
+.stages .container {
+    position: relative;
+}
+
+.stages-title {
+    margin-bottom: 40px;
+}
+
+.stages__slaider-container {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+/* Слайдер, который выходит за пределы экрана */
+.stages__slider {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+/* Стили для каждого элемента слайда */
+.stages__slide-article {
+    position: relative;
+    white-space: wrap;
+    padding: 28px;
+    margin-right: 28px;
+    width: 368px;
+    border-radius: 12px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.stages__slide-article svg {
+    margin-bottom: 28px;
+}
+
+.stages__slide-position {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    top: 28px;
+    right: 28px;
+}
+
+.stages__slide-position__circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 100px;
+    border: 1px solid #005aa3;
+    background-color: #fff;
+}
+
+.stages__slide-position__circle.active {
+    background-color: #005aa3;
+}
+
+.stages__slide-title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: #2c2c2c;
+}
+
+.stages__slide-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    color: #5c5c5c;
+}
+
+
+/* CATALOGHOME - yourPtoject */
+
+.yourPtoject {
+    background-image: url(../images/yourProject/yourProject-img.png);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+}
+
+.yourPtoject .container {
+    display: flex;
+    gap: 28px;
+    margin-bottom: 100px;
+}
+
+.yourPtoject__info {
+    width: 50%;
+}
+
+.yourPtoject__info-title {
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.yourPtoject__info-descr {
+    max-width: 395px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.yourPtoject .bid__form {
+    padding: 28px;
+    width: 50%;
+    background-color: inherit;
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.yourPtoject .form-items {
+    gap: 7px;
+    margin-bottom: 2px;
+}
+
+.yourPtoject .form-info {
+    gap: 5px;
+}
+
+.yourPtoject .custom-checkmark{
+    border: 1px solid #fff;
+}
+
+.yourPtoject .checkbox .custom-checkmark:after {
+    border: solid #fff;
+    border-width: 0 1px 1px 0;
+}
+
+.yourPtoject .checkbox a {
+    border-bottom: 1px solid #fff;
+    margin-left: 3px;
+}
+
+.catalogHome__reviews-video {
+    margin-bottom: 61px;
+}
+
+.villages {
+    padding: 100px 0 100px 0;
+}
+
+.purchaseOptions .container {
+    margin-bottom: 140px;
+}
+
+.reviews-residents .reviews-prev,
+.reviews-residents .reviews-next {
+    top: -23px;
+}
+
+.materials .container {
+    margin-bottom: 87px;
+}
+
+.reviews-residents {
+    padding: 100px 0 72px 0;
+}
+
+.bid-2 {
+    padding: 101px 0 100px 0;
+}
+
+.form-items {
+    gap: 6px;
+    margin-bottom: 3px;
+}
+
+.form-info {
+    gap: 4px;
+}
+
+.latest-news .reviews-prev,
+.latest-news .reviews-next {
+    top: -23px;
+}
+
+.our-contacts {
+    padding: 100px 0 48px 0;
+}
+
+.our-contacts__item {
+    padding: 18px 30px 18px 18px;
+}
