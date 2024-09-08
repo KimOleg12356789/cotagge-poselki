@@ -1,0 +1,1960 @@
+@media (max-width: 1670px) {
+  
+}
+
+@media (max-width: 1200px) {
+
+    .navigation-buttons {
+        display: none;
+    }
+    .villages__inner {
+        justify-content: center;
+    }
+
+    .section__name {
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .section-info {
+        margin-right: 0;
+    }
+
+    .villages,
+    .built-cottages,
+    .projects-home,
+    .privileges,
+    .reviews-video,
+    .bid,
+    .life,
+    .reviews-residents,
+    .bid-2,
+    .latest-news,
+    .our-contacts,
+    .plan,
+    .gallery {
+        padding: 55px 0;
+    }
+
+    .slider-built-cottages__inner,
+    .slider-projects-home__inner {
+        gap: 10px 5px;
+        justify-content: space-between;
+    }
+
+    .reviews-video,
+    .bid {
+        margin-bottom: 85px;
+    }
+
+    .catalog-bid-2 {
+        margin-bottom: 100px;
+    }
+
+   
+}
+
+@media (max-width: 1165px) {
+    .villages {
+        margin-top: -185px;
+    }
+
+    .catalog-villages {
+        margin-top: 0;
+    }
+
+    .privileges-title {
+        font-size: 46px;
+    }
+
+    .privileges__title {
+        font-size: 16px;
+        margin: 16px;
+        padding: 19px;
+    }
+
+    .privileges__wrapper {
+        gap: 12px;
+    }
+
+    .privileges__list {
+        font-size: 12px;
+        padding: 16px;
+    }
+
+    .privileges-img {
+        margin-left: -37px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .priv-item {
+        height: 47px;
+    }
+
+    .priv-item img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .privileges__link {
+        margin-bottom: 16px;
+        font-size: 16px;
+    }
+
+    .life__title {
+        font-size: 50px;
+    }
+
+    .page__vaiilgaes {
+        margin-bottom: 100px;
+    }
+
+    .advantages-items {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1130px) {
+
+    .slider-built-cottages__item,
+    .slider-projects-home__item {
+        flex-basis: 231px;
+    }
+
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev,
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        display: none;
+    }
+
+    .built-cottage__details-count {
+        font-size: 12px;
+    }
+
+    .built-cottage__content {
+        height: 90px;
+    }
+
+    .review-resident {
+        width: 100%;
+    }
+
+    .our-contacts-items {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .our-contacts__inner {
+        width: 100%;
+        gap: 16px;
+    }
+
+    .our-contacts__item:last-child {
+        flex-basis: 100%;
+    }
+
+    .сontact-text-address {
+        margin-bottom: 16px;
+    }
+
+    .infrastructure__content {
+        display: none;
+    }
+
+    .infrastructure__content-mobile {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        -moz-column-gap: 16px;
+             column-gap: 16px;
+        row-gap: 32px;
+        margin-bottom: 56px;
+    }
+
+    .infrastructure__content-mobile__card {
+        position: relative;
+        padding: 32px 12px 14px 12px;
+        border-radius: 12px;
+        background-color:  #f0f4fb;
+    }
+
+    .infrastructure__content-mobile__card svg {
+        position: absolute;
+        left: 12px;
+        top: -16px;
+    }
+
+    .infrastructure__content-mobile__card-tilte {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 115%;
+        color: #2c2c2c;
+    }
+
+    .life {
+        padding: 55px 0 102px 0;
+    }
+
+    .life__inner {
+        grid-template-columns: repeat(2, auto);
+        gap: 10px;
+    }
+
+    .life-card {
+        top: 171px;
+    }
+
+}
+
+@media (max-width: 1045px) {
+    .top-slide__link-img {
+        display: none;
+    }
+
+    .bid__title {
+        font-size: 38px;
+        
+    }
+
+    .life__title {
+        font-size: 38px;
+    }
+
+    .bid-2 .bid__title {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .ipdoc_body {
+        color: #888E93;
+        font-size: 13px;
+    }
+    .villages {
+        margin-top: -224px;
+    }
+
+    .catalog-villages {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 980px) {
+
+    .slider-built-cottages__item,
+    .slider-projects-home__item {
+        flex-basis: 221px;
+    }
+
+    .project-check {
+        font-size: 8px;
+        padding: 4px 7px;
+    }
+
+    .house-icon__img {
+        padding: 5px;
+        width: 22px;
+        height: 22px;
+    }
+
+    .privileges__link {
+        font-size: 12px;
+        padding: 14px 0;
+        width: 100%;
+    }
+
+    .review__text {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .review__author {
+        gap: 16px;
+        padding-top: 16px;
+    }
+
+    .review__author-name {
+        font-size: 14px;
+    }
+
+    .review__author-date {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 937px) {
+
+    .slider-built-cottages__item,
+    .slider-projects-home__item {
+        flex-basis: 188px;
+    }
+
+    .built-cottage__details-count {
+        font-size: 10px;
+    }
+
+    .privileges__title {
+        font-size: 14px;
+    }
+
+    .communication {
+        display: none;
+    }
+
+    .bid-2 .bid__subtitle {
+        border-bottom: none;
+    }
+
+    .ipoteka_block_wrap {
+        flex-wrap: wrap;
+    }
+
+    .ipoteka_block {
+        width: 50%;
+        margin: 0 0 28px 0;
+        padding: 0 14px;
+    }
+
+    .ipdoc__block {
+        width: 50%;
+    }
+
+    .ipdoc__block2 {
+        width: 50%;
+    }
+
+    .ipdoc__inner {
+        background: #F0F4FB;
+        padding: 28px 28px 28px 28px;
+        border-radius: 12px;
+        margin: 0 0 28px 0;
+        height: 175px;
+    }
+}
+
+@media (max-width: 820px) {
+
+    .main {
+        padding: 170px 0 0 0;
+    }
+
+    .section__name {
+        margin-bottom: 25px;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .section-info {
+        flex-basis:inherit;
+    }
+
+    .villages {
+        padding: 55px 0 100px 0;
+    }
+
+    .villages__inner {
+        gap: 16px;
+    }
+
+    .villages__item {
+        width: 242px;
+    }
+
+    .slider-villages {
+        margin-bottom: 6px;
+    }
+
+    .slider-villages__img {
+        width: 242px;
+        height: 126px;
+    }
+
+    .slider-villages-teg {
+        padding: 6px 10px;
+        align-items: center;
+    }
+
+    .slider-villages-teg p {
+        font-size: 8px;
+    }
+
+    .slider-villages-teg img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .villages__content-wrapper {
+        padding: 0 5px;
+    }
+
+    .villages__content-title {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+
+    .villages__content-teg {
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+
+    .villages__content-list li {
+        margin-bottom: 6px;
+        font-size: 10px;
+    }
+
+    .villages__content-list li:last-child {
+        margin-bottom: 0;
+    }
+
+    .villages__content-list li::before {
+        width: 6px;
+        height: 6px;
+    }
+
+    .village-rating {
+        gap: 10px;
+        padding: 8px 0;
+    }
+
+    .rating-img,
+    .reviews-img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .rating-number,
+    .reviews-count {
+        font-size: 10px;
+    }
+
+    .slider-built-cottages__item,
+    .slider-projects-home__item {
+        flex-basis: 187px;
+    }
+
+    .built-cottages {
+        margin-top: -50px;
+    }
+
+    .built-cottage__details-count {
+        font-size: 8px;
+    }
+
+    .slider-built-cottages {
+        height: 1093px;
+        margin-bottom: 14px;
+    }
+
+    .built-cottages {
+        padding: 55px 0 121px;
+    }
+
+    .built-cottage__content-title,
+    .projects-home__content-title {
+        font-size: 15px;
+    }
+
+    .privileges__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bid__title {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .bid__subtitle {
+        font-size: 14px;
+        line-height: 1.2;
+        margin-bottom: 22px;
+    }
+
+    .bid__slider {
+        padding: 8px 0;
+    }
+
+    .bid__slider .swiper-slide img {
+        height: 34px;
+    }
+
+    .bid-2 .bid__title {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .our-contacts .section-title {
+        font-size: 46px;
+    }
+
+    .cottages__images__slider {
+        height: 125px;
+    }
+
+    .cottages__images-img {
+        margin-bottom: 7px;
+    }
+
+    .reviews-residents__inner .title-navigation {
+        margin-bottom: 23px;
+    }
+}
+
+@media (max-width: 800px) {
+    .section-title {
+        font-size: 26px;
+        line-height: 0.95;
+        gap: 10px;
+        color: #2c2c2c;
+    }
+
+    .top-mobile__swiper .swiper-pagination {
+        margin-bottom: 56px;
+    }
+
+    .slider-built-cottages__item,
+    .slider-projects-home__item {
+        flex-basis: 263px;
+    }
+
+    .slider-built-cottages__inner,
+    .slider-projects-home__inner {
+        gap: 16px 80px;
+        justify-content: center;
+    }
+
+    .slider-projects-home {
+        height: 1091px;
+    }
+
+    .slider-built-cottages__img,
+    .slider-projects-home__img {
+        height: 135px;
+    }
+
+    .slider-built-cottage__mini,
+    .slider-projects-home__mini {
+        margin-bottom: 10px;
+    }
+
+    .built-cottage__content-title,
+    .projects-home__content-title {
+        font-size: 11px;
+    }
+
+
+    .built-cottage__content-teg {
+        margin-bottom: 6px;
+    }
+
+    .built-cottage__content-teg img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .built-cottage__gk {
+        font-size: 10px;
+    }
+
+    .built-cottage__price {
+        font-size: 9px;
+        margin-bottom: 0;
+    }
+
+    .built-cottage__content {
+        height: 58px;
+    }
+
+    .projects-home__price {
+        font-size: 9px;
+        margin-bottom: 10px;
+    }
+
+    .privileges__wrapper,
+    .privileges-title {
+        display: none;
+    }
+
+    .privileges-mob {
+        display: flex;
+    }
+
+    .top__swiper-mob .swiper-pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1px;
+    }
+
+    .top__swiper-mob .swiper-pagination-bullet {
+        position: relative;
+        width: 105px;
+        height: 6px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 100px;
+        margin: 0 8px;
+    }
+
+    .top__swiper-mob .swiper-pagination-bullet-active::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        border-radius: 100px;
+        -webkit-animation: progresstop 8.9s linear forwards;
+                animation: progresstop 8.9s linear forwards;
+    }
+
+    @-webkit-keyframes progresstop {
+        0% {
+            width: 0;
+        }
+
+        90% {
+            width: 100%;
+        }
+
+        100% {
+            width: 100%;
+        }
+    }
+
+    @keyframes progresstop {
+        0% {
+            width: 0;
+        }
+
+        90% {
+            width: 100%;
+        }
+
+        100% {
+            width: 100%;
+        }
+    }
+
+    .privileges {
+        padding: 16px 0;
+        margin-bottom: 50px;
+    }
+
+    .built-cottages {
+        margin-bottom: -100px;
+    }
+
+    .top-slide__info-mob {
+        background: rgba(255, 255, 255, 0.1);
+        -webkit-backdrop-filter: blur(5px);
+                backdrop-filter: blur(5px);
+        border-radius: 12px;
+        margin-bottom: 8px;
+    }
+
+    .top-slide__content {
+        width: 100%;
+    }
+
+    .top-slide__title-mob {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 8px;
+    }
+
+    .privilege-item img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .offer-item {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.15;
+        letter-spacing: -0.01em;
+        color: #fff;
+    }
+
+    .top-slide__link-mob {
+        width: 100%;
+        margin: 0;
+    }
+
+    .swiper-wrapper-priv {
+        height: 410px;
+    }
+
+    .privilege-item-mob {
+        width: 100%;
+    }
+
+    .top-slide__link-mob {
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .top-slide__title-mob {
+        font-size: 16px;
+    }
+
+    .reviews-video .title-navigation {
+        margin-bottom: 25px;
+    }
+
+    .reviews-video .video-box {
+        min-height: 178px;
+    }
+
+    .reviews-video .swiper-slide-video:first-child {
+        width: 312px;
+    }
+
+    .reviews-video .swiper-slide-video {
+        width: 156px;
+    }
+
+    .reviews-video .video-duration {
+        top: 12px;
+        left: 12px;
+        padding: 6px 10px;
+        font-size: 8px;
+    }
+
+    .reviews-video .video__btn img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .reviews-video .video-slide__inner p {
+        margin-top: 12px;
+        font-size: 10px;
+        line-height: 1.2;
+    }
+
+    .bid__form {
+        padding: 16px;
+    }
+
+    .form-items {
+        gap: 8px;
+        margin-bottom: 12px;
+    }
+
+    .form-item {
+        padding: 17px;
+        font-size: 14px;
+    }
+
+    .form-info {
+        gap: 12px;
+    }
+
+    .checkbox {
+        font-size: 11px;
+    }
+
+    .bid-form__btn {
+        font-size: 14px;
+        line-height: 1.2;
+        padding: 15px;
+    }
+
+    .bid-2 .bid__subtitle {
+        padding-bottom: 0;
+        text-align: center;
+    }
+
+    .bid__subtitle {
+        margin-bottom: 0;
+    }
+
+    .latest-news__inner .title-navigation {
+        margin-bottom: 25px;
+    }
+
+    .swiper-slide-latest-news {
+        width: 312px;
+        min-height: 261px;
+    }
+
+    .latest-new__info {
+        padding: 16px;
+    }
+
+    .latest-new__title {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .latest-new__text {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+
+    .latest-new__date {
+        font-size: 10px;
+    }
+
+    .our-contacts .section-title {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .icon-wrapper {
+        padding: 0 6px;
+        height: 34px;
+        margin-bottom: 26px;
+    }
+
+    .icon-wrapper::before {
+        width: 22px;
+        height: 22px;
+        left: 4px;
+    }
+
+    .icon-img {
+        width: 10px;
+        height: 10px;
+        margin-left: 4px;
+    }
+
+    .icon-img__text {
+        font-size: 12px;
+        margin-left: 12px;
+    }
+
+    .contact-text {
+        font-size: 12px;
+    }
+
+    .icon-wrapper-reset {
+        margin-bottom: 0;
+    }
+
+    .our-contacts__item-flex .contact-text {
+        font-size: 12px;
+        margin-right: 0;
+    }
+
+    .our-contacts__item-flex {
+        min-width: 100%;
+    }
+
+    .footer-logo img {
+        width: 156px;
+        height: 67px;
+        margin-bottom: 10px;
+    }
+
+    .map__title {
+        font-size: 26px;
+    }
+
+    .catalog__reviews-residents {
+        margin-top: 0;
+    }    
+
+    .catalogHome-cottages .slider-built-cottages {
+        height: 1100px;
+    }
+
+    .catalogHome-cottages .cottages__content {
+        height: 1050px;
+    }
+}
+
+@media (max-width: 768px) {
+    .swiper-slide-mob {
+        height: 900px;
+    }
+
+    .villages {
+        margin-top: -23px;
+    }
+
+    .top-mobile__swiper .swiper-pagination {
+        margin-bottom: 294px;
+        z-index: 9999;
+    }
+
+    .projects-home__note {
+        padding-left: 8px;
+    }
+
+    .projects-home__note::before {
+        width: 5px;
+        height: 5px;
+    }
+
+    .bid__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .advantages-items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .life__inner {
+        grid-template-columns: repeat(1, auto);
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .footer-wrapper {
+        padding: 55px 0;
+    }
+
+    .footer-top {
+        flex-wrap: wrap;
+        gap: 51px;
+    }
+
+    .footer-top {
+        margin-bottom: 25px;
+    }
+
+    .footer__menu-link-mob {
+        display: none;
+    }
+
+    .footer-bottom {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 6px;
+    }
+
+}
+
+@media (max-width: 645px) {
+
+    .slider-built-cottages__img,
+    .slider-projects-home__img {
+        width: 100%;
+    }
+
+    .slider-built-cottages__item,
+    .slider-projects-home__item {
+        flex-basis: 197px;
+    }
+
+    .built-cottage__details-name {
+        font-size: 6px;
+    }
+
+    .discount-badge {
+        font-size: 7px;
+        padding: 8px 3px;
+    }
+
+    .house-icons {
+        gap: 4px;
+    }
+
+    .house-icon__img {
+        padding: 4px;
+        width: 22px;
+        height: 22px;
+    }
+
+    .projects-home__note {
+        font-size: 8px;
+    }
+
+    .yourPtoject .container {
+        flex-direction: column;
+    }
+
+    .yourPtoject__info {
+        width: 100%;
+    }
+
+    .yourPtoject .bid__form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .communications__content {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .purchaseOptions {
+        overflow: hidden;
+    }
+
+    .purchaseOptions .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .purchaseOptions__content-container {
+        width: 120%;
+        overflow: hidden;
+    }
+
+    .purchaseOptions__content {
+        flex-direction: row;
+        max-width: 100%;
+        transition: transform 0.3s ease-in-out;
+        gap: 0;
+    }
+
+    .purchaseOptions__card {
+        min-width: 79%;
+        margin-right: 16px;
+    }
+
+    .purchaseOptions__card-number {
+        left: 18px;
+    }
+
+    .mobile-desctop {
+        display: none;
+    }
+
+    .materials-mobile {
+        display: block;
+        overflow: hidden;
+    }
+
+    .materials__card:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .materials-mobile .container {
+        flex-direction: column;
+    }
+
+    .materials__cards-container {
+        width: 120%;
+        overflow: hidden;
+    }
+
+    .materials__cards {
+        display: flex;
+        flex-direction: row;
+        max-width: 79%;
+        transition: transform 0.3s ease-in-out;
+        gap: 0;
+    }
+
+    .materials__card {
+        min-width: 100%;
+        margin-right: 16px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 605px) {
+    .advantages-items {
+        padding: 25px 0;
+        gap: 16px;
+    }
+
+    .advantage-card {
+        padding: 12px;
+        flex-basis: 197px;
+    }
+
+    .advantage-card img {
+        width: 40px;
+        height: 28px;
+    }
+
+    .advantage-card p {
+        font-size: 12px;
+        line-height: 1.15;
+    }
+
+    .our-contacts__item-flex .contact-text {
+        display: none;
+    }
+
+    .icon-wrapper {
+        margin-bottom: 23px;
+    }
+
+    .our-contacts__item-flex .icon-wrapper {
+        margin-bottom: 0;
+    }
+
+
+    .plan__content-card {
+        width: 100%;
+    }
+
+    .cottages__nav{
+        width: 100%;
+    }
+
+    .сontact-text-address {
+        font-size: 16px;
+    }
+
+    .route__link {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 120%;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .our-contacts__item-add {
+        padding: 11px 30px 13px 18px;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .main {
+        padding: 120px 0 0 0;
+    }
+
+    .container {
+        padding: 0 16px;
+    }
+
+    .ipoteka_block {
+        width: 100%;
+        margin: 0 0 28px 0;
+        padding: 0 14px;
+    }
+
+    .ipdoc__block {
+        width: 100%;
+    }
+
+    .ipdoc__block2 {
+        width: 100%;
+    }
+
+    .ipdoc__inner {
+        background: #F0F4FB;
+        padding: 28px 28px 28px 28px;
+        border-radius: 12px;
+        margin: 0 0 28px 0;
+        height: auto;
+    }
+
+    .ipoteka_section {
+        background: #fff;
+        padding: 60px 0 72px 0;
+        margin: 0 0 80px 0;
+    }
+
+    .header-cover_ipoteka {
+        padding: 167px 0 30px 0;
+    }
+
+    .ipoteka_inner {
+        position: relative;
+        padding: 28px 28px 28px 28px;
+        display: flex;
+        align-items: center;
+    }
+
+    .ipoteka_icon {
+        padding: 0 12px 0px 0;
+    }
+
+    
+    .last-news {
+        color: #fff;
+        padding: 40px 0 50px 0;
+        text-align: left;
+    }
+   
+    .section__name {
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+
+    .section-info {
+        flex-basis: 330px;
+    }
+
+    .villages__item {
+        width: 48%;
+    }
+
+    .slider-villages__img {
+        width: 100%;
+        height: 126px;
+    }
+
+    .villages__inner {
+        gap: 13px 6px;
+    }
+
+    .villages__content {
+        padding-bottom: 0;
+        min-height: 70px;
+    }
+
+    .village-rating {
+        padding: 10px 0 0 0;
+    }
+
+    .rating-number, .reviews-count {
+        font-size: 9px;
+    }
+
+    .slider-built-cottages__inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .slider-projects-home__inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .life__title {
+        font-size: 26px;
+    }
+
+    .our-contacts__inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts__social-link::before {
+        width: 34px;
+        height: 34px;
+    }
+
+    .contacts-icon {
+        width: 17px;
+        height: 17px;
+    }
+
+    .footer__menu-list {
+        min-width: 165px;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .crumbs__wrap {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .main {
+        padding: 86px 0 0 0;
+    }
+
+    .offer {
+        font-size: 12px;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+
+    .footer__menu-title {
+        font-size: 10px;
+    }
+
+    .footer__menu-item a {
+        font-size: 14px;
+    }
+
+    .bid__title {
+        text-align: center;
+    }
+
+    .bid__subtitle {
+        text-align: center;
+    }
+
+    .villages__content-list {
+        min-height: 36px;
+    }
+
+    .villages__item {
+        border: none;
+    }
+
+    .popup-menu__mob {
+        right: 0px;
+    }
+
+    .slider-projects-home__inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px 10px;
+        justify-content: space-between;
+    }
+
+    .villages .privileges__link, .built-cottages .privileges__link, .projects-home .privileges__link {
+        display: flex;
+        padding: 16px;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .slider-built-cottage__mini {
+        margin-bottom: 3px;
+    }
+
+    .slider-projects-home__mini {
+        margin-bottom: 2px;
+    }
+
+    .slider-built-cottages__inner {
+        gap: 10px 10px;
+    }
+
+    .built-cottage__detail {
+        padding: 6px;
+    }
+
+    .slider-built-cottages-pagination {
+        display: none;
+    }
+
+    .projects-home .container {
+        margin-bottom: 80px;
+    }
+
+    .slider-projects-home {
+        height: 939px;
+        margin-bottom: 19px;
+    }
+
+    .slider-built-cottages {
+        height: 951px;
+    }
+
+    .life-card {
+        max-width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .life-card img {
+        height: 140px;
+    }
+
+    .life-card__content {
+        padding: 10px;
+        padding-top: 26px;
+        padding-bottom: 20px;
+    }
+
+    .life__content-badge {
+        top: 122px;
+        border: 2px solid #f0f4fb;
+        padding: 8px 10px;
+        font-size: 12px;
+    }
+
+    .life__content-badge::before {
+        width: 6px;
+        height: 6px;
+    }
+
+    .life__content__info {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .life__content__text {
+        font-size: 12px;
+    }
+
+    .life-link {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .life-link img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .life__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 0 40px 0;
+    }
+
+    .advantages-items,
+    .villages__inner {
+        justify-content: space-between;
+    }
+
+    .section__name,
+    .villages__inner,
+    .slider-built-cottages,
+    .slider-projects-home,
+    .advantages-items {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .life__title {
+        margin-right: 0;
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    .footer__menu-bottom {
+        flex-direction: column;
+    }
+
+    .advantage-card {
+        padding: 12px;
+        flex-basis: 188px;
+    }
+
+    .slider-built-cottages__item, .slider-projects-home__item {
+        flex-basis: 188px;
+    }
+
+}
+
+@media (max-width: 415px) {
+    .top-mobile__swiper .swiper-pagination {
+        margin-bottom: 344px;
+    }
+
+    .header-cover_catalog-tegs {
+        padding-top: 25px;
+        margin-bottom: 78px;
+    }
+
+    .villages__inner {
+        gap: 25px 6px;
+        margin-bottom: 14px;
+    }
+
+    .villages__item-mob-hidden {
+        display: none;
+    }
+    
+    .built-cottages {
+        padding: 60px 0 55px 0;
+    }
+
+    .built-cottages .section-title {
+        width: 60%;
+    }
+
+    .built-cottages .section-info {
+        margin-bottom: 17px;
+        flex-shrink: inherit;
+        width: 75%;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        color: #5c5c5c;
+    }
+
+    .catalog-villages {
+        padding: 15px 0 55px 0;
+    }
+
+    .top-slide__privilege {
+        padding: 18px 18px 0px 18px;
+    }
+
+    .top__swiper-mob .swiper-pagination {
+        padding-bottom: 10px;
+    }
+
+    .privileges {
+        padding: 16px 0 1px 0;
+        margin-bottom: 55px;
+        border-radius: 20px;
+    }
+
+    .swiper-wrapper-priv {
+        height: 394px;
+    }
+
+    .advantages {
+        margin-bottom: 129px;
+    }
+
+    .advantages .section-title {
+        width: 90%;
+    }
+
+    .advantage-card img {
+        margin-bottom: 15px;
+    }
+
+    .advantages-items {
+        gap: 18px 16px;
+    }
+
+    .header-cover_page {
+        position: relative;
+        padding: 208px 0 159px 0;
+    }
+
+    .reviews-video {
+        margin-bottom: 77px;
+    }
+
+    .reviews-video .section-title {
+        width: 80%;
+    }
+
+    .reviews-video__top {
+        margin-bottom: 67px;
+    }
+
+    .reviews-video__line {
+        margin-bottom: 79px;
+    }    
+
+    .reviews-video {
+        padding: 56px 0 147px 0;
+        margin-bottom: 77px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .reviews-video .video__btn {
+        width: 52px;
+        height: 52px;
+    }
+
+    .reviews-video .video__btn img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bid {
+        margin-bottom: 99px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .cottages .slider-projects-home__inner,
+    .cottages .slider-built-cottages__inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reviews-residents {
+        padding: 55px 0 5px 0;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .map-container {
+        padding: 55px 0 3px 0;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .map__title {
+        width: 60%;
+    }
+
+    .bid-2 {
+        padding: 61px 0 55px 0;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .bid-2 .bid__subtitle {
+        padding: 0 16px;
+        margin-bottom: 0;
+    }
+
+    .bid-2 .bid__wrapper {
+        gap: 5px;
+    }
+
+    .catalog-bid-2 {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .our-contacts {
+        margin-top: -170px;
+        border-radius: 20px 20px 0 0;
+        margin-bottom: 0;
+    }
+
+    .plan {
+        background-image: url(../images/page/page__plan-img\(mobile\).png);
+        background-size: cover;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .plan-nav {
+        position: relative;
+    }
+
+    .plan-nav__list {
+        position: absolute;
+        right: 0;
+        bottom: -79px;
+    }
+
+    .plan__content {
+        padding: 217px 0 100px 0;
+        background-image: none;
+    }
+
+    .plan__content-card {
+        display: grid;
+        grid-template-columns: 105px auto;
+        gap: 11px;
+        padding: 14px 18px 5px 18px;
+        margin-bottom: 18px;
+    }
+
+    .plan__content-card__top {
+        height: 105px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+
+    .plan__content-card__title {
+        margin-bottom: 4px;
+        font-size: 14px;
+    }
+
+    .plan__content-card__item-descr {
+        font-size: 8px;
+    }
+
+    .plan__content-card__item {
+        padding: 7px 0;
+    }
+
+    .plan__content-card__images::after {
+        top: 0;
+        left: 0;
+    }
+
+    .plan__content-conteainer__link {
+        display: block;
+        margin: 0;
+    }
+
+    .gallery {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .images-controls__btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .content__radio-buttons {
+        gap: 6px;
+        bottom: 12px;
+    }
+
+    .content__custom-radio .radio-circle {
+        width: 8px;
+        height: 8px;
+    }
+
+    .cottages {
+        padding: 59px 0;
+    }
+
+    .cottages-title {
+        margin-bottom: 23px;
+    }
+
+    .cottages__nav {
+        margin-bottom: 17px;
+    }
+
+    .cottages__nav-btn {
+        padding: 10px 14px;
+        font-size: 12px;
+    }
+
+    .header-cover_catalogHome-tegs {
+        margin-bottom: 46px;
+    }
+
+    .catalogHome-cottages {
+        padding: 17px 0 90px 0;
+        background-color: #fff;
+    }
+
+    .materials-mobile {
+        padding: 55px 0 55px 0;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .materials-title {
+        margin-bottom: 0;
+    }
+
+    .materials__card {
+        padding: 19px 17px;
+    }
+
+    .materials__card-top svg {
+        width: 14%;
+    }
+
+    .materials__card-title {
+        font-size: 18px;
+    }
+
+    .materials__card-descr {
+        font-size: 14px;
+    }
+
+    .communications {
+        padding: 55px 0 55px 0;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .communications-title {
+        margin-bottom: 25px;
+    }
+
+    .communications__card__title {
+        font-size: 17px;
+    }
+
+    .communications__card-bottom {
+        padding: 14px;
+    }
+
+    .communications__card__descr {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .communications__content {
+        gap: 19px;
+    }
+
+    .catalogHome-villages .container {
+        margin-bottom: 99px;
+    }
+
+    .catalogHome__reviews-video {
+        margin-bottom: 123px;
+    }
+
+    .purchaseOptions {
+        padding: 55px 0 55px 0;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .purchaseOptions .container {
+        align-items: flex-start;
+    }
+
+    .purchaseOptions-title {
+        max-width: 55%;
+    }
+
+    .latest-news {
+        padding: 55px 0 125px 0;
+    }
+
+    .purchaseOptions__content {
+        margin-top: 50px;
+    }
+
+    .purchaseOptions__card-title{
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+
+    .purchaseOptions__card {
+        padding: 41px 12px 17px 14px;
+    }
+
+    .purchaseOptions__card-descr {
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+
+    .purchaseOptions__card-list {
+        gap: 5px;
+    }
+
+    .purchaseOptions__card-item__descr {
+        font-size: 12px;
+    }
+
+    .cottages__content {
+        min-height: 1039px;
+    }
+
+    .our-contacts__item .connect {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+
+
+}
+
+@media (max-width: 390px) {
+    .villages {
+        margin-top: -53px;
+    }
+}
+
+@media (max-width: 360px) {
+    .index-top .container {
+        margin-bottom: 100px;
+    }
+
+    .villages {
+        margin-top: -105px;
+    }
+
+    .villages .privileges__link,
+    .built-cottages .privileges__link,
+    .projects-home .privileges__link {
+        display: flex;
+        padding: 16px;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .slider-built-cottages,
+    .slider-projects-home {
+        margin-bottom: 0;
+    }
+
+    .built-cottages {
+        padding: 60px 0 93px 0;
+    }
+
+    .projects-home {
+        margin-bottom: 15px;
+    }
+
+    .top-slide-img {
+        margin-left: -17px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .top-slide__privilege {
+        font-size: 12px;
+    }
+
+    .privilege-item-mob {
+        width: 145px;
+    }
+
+    .built-cottages {
+        margin-bottom: -38px;
+    }
+
+    .reviews-video .swiper-slide-video:first-child {
+        width: 286px;
+    }
+
+    .bid__form {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .form-item {
+        border: none;
+        background-color: #fff;
+    }
+
+    .bid__wrapper {
+        gap: 16px;
+    }
+
+    .bid__title,
+    .bid__subtitle {
+        text-align: center;
+    }
+
+    .bid__subtitle {
+        margin-bottom: 22px;
+        font-weight: 400;
+        padding: 0 70px;
+        font-size: 11px;
+        line-height: 151%;
+        text-align: center;
+        color: #5c5c5c;
+    }
+
+    .form-items {
+        gap: 3px;
+        margin-bottom: 5px;
+    }
+
+    .form-info {
+        gap: 7px;
+    }
+
+    .swiper-slide-latest-news {
+        margin-right: 5px;
+    }
+
+    .swiper-slide-latest-news {
+        width: 306px;
+    }
+
+    .footer__menu-list {
+        font-size: 14px;
+    }
+
+    .offer {
+        font-size: 10px;
+    }
+
+    .footer__menu-link {
+        font-size: 12px;
+    }
+
+    .section__name,
+    .villages__inner,
+    .slider-built-cottages,
+    .slider-projects-home,
+    .advantages-items {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 391px) {
+
+
+    .advantage-card {
+        padding: 12px;
+        flex-basis: 178px;
+    }
+
+    .slider-built-cottages__item, .slider-projects-home__item {
+        flex-basis: 178px;
+    }
+}
+
+@media (max-width: 376px) {
+    .top-mobile__swiper .swiper-pagination {
+        margin-bottom: 364px;
+    }
+
+    .slider-built-cottages__item, .slider-projects-home__item {
+        flex-basis: 170px;
+    }
+
+    .advantage-card {
+        padding: 12px;
+        flex-basis: 169px;
+    }
+}

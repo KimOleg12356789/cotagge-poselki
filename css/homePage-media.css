@@ -1,0 +1,333 @@
+@media (max-width: 1176px) {
+    .main {
+        padding: 180px 0 0 0;
+    }
+
+    .finishing {
+        margin-top: -70px;
+    }
+}
+
+@media (max-width: 988px) {
+    .peculiarities__list {
+        gap: 10px;
+    }
+
+    .peculiarities__item {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 866px) {
+    .peculiarities__list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+    }
+
+    .peculiarities__item {
+        padding: 28px 110px 28px 28px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .peculiarities,
+    .finishing,
+    .hero,
+    .hero__images-mobile {
+        padding: 40px 0;
+        margin-top: -100px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero__images {
+        display: none;
+    }
+
+    .hero__images-mobile {
+        display: block;
+        padding: 158px 0 50px 0;
+        background-color: #2c2c2c;
+    }
+
+    .hero__images-img {
+        margin-bottom: 40px;
+    }
+
+    .mobile-hero__slider-image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .mobile-hero__slider-image.active {
+        opacity: 1;
+    }
+
+    .hero .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .finishing__content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .finishing__content-img {
+        height: 500px;
+    }
+    
+    .cottages__content {
+        min-height: 1100px;
+        margin-bottom: 70px;
+    }
+
+    .slider-built-cottages, .slider-projects-home {
+        height: 1024px;
+    }
+
+    .reviews-video {
+        padding-bottom: 85px;
+    }
+
+    .materials-title {
+        color: #fff;
+    }
+
+    .purchaseOptions-title {
+        color: #fff;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        padding: 90px 0 0 0;
+    }
+
+    .hero .container {
+
+    }
+}
+
+@media (max-width: 645px) {
+    .purchaseOptions__content {
+        gap: 0;
+    }
+
+    .purchaseOptions__content-container {
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero__images__top-descr {
+        font-size: 10px;
+    }
+
+    .hero-title {
+        font-size: 26px;
+    }
+
+    .hero-title.price {
+        font-size: 14px;
+    }
+
+    .hero__content-descr {
+        font-size: 11px;
+    }
+
+    .hero__content-quantity {
+        font-size: 12px;
+    }
+
+    .hero__content-info__item .hero__content-descr {
+        font-size: 8px;
+    }
+
+    .peculiarities__item-title {
+        font-size: 16px;
+    }
+
+    .peculiarities__item-descr {
+        font-size: 9px;
+    }
+
+    .finishing__content-img {
+        display: none;
+    }
+
+    .finishing__info-item {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .finishing__info-item__descr {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .crumbs__wrap {
+        padding: 6px 0;
+    }
+
+    .hero {
+        padding: 7px 0 7px 0;
+    }
+
+    .hero .container {
+        margin-bottom: 131px;
+    }
+
+    .hero__images-mobile {
+        display: block;
+        padding: 144px 0 50px 0;
+    }
+
+    .hero__images__top-span {
+        padding: 7px 8px;
+    }
+
+    .hero__images__slider {
+        height: 320px;
+    }
+
+    .hero__content-section {
+        padding: 11px 0;
+    }
+
+    .hero__content__descr-container .hero__content-descr {
+        font-size: 10px;
+    }
+
+    .hero__content__descr-container {
+        padding: 18px 0 14px 0;
+    }
+
+    .hero__content-info__item {
+        padding: 9px 12px 8px 12px;
+    }
+
+    .hero__content-section.scrolls {
+        height: 43px;
+    }
+
+    .hero__content-section__scroll .hero__content-section__item {
+        height: 27px;
+    }
+
+    .hero__content-section__scroll .hero__content-section__item .hero__content-descr {
+        font-size: 10px;
+    }
+
+    .peculiarities {
+        padding: 55px 0 40px 0;
+    }
+
+    .peculiarities .container {
+        margin-bottom: 117px;
+    }
+
+    .peculiarities-title {
+        margin-bottom: 28px;
+    }
+
+    .peculiarities__list {
+        gap: 28px;
+    }
+
+    .peculiarities__item {
+        padding: 16px 100px 19px 17px;
+    }
+
+    .peculiarities__item-icon {
+        width: 35px;
+        height: 35px;
+        top: 17px;
+        right: 23px;
+    }
+
+    .reviews-video {
+        padding-bottom: 101px;
+    }
+
+    .finishing {
+        padding: 56px 0 40px 0;
+    }
+
+    .finishing .container {
+        margin-bottom: 114px;
+    }
+
+    .finishing-title {
+        margin-bottom: 24px;
+    }
+
+    .finishing__content-info {
+        padding: 16px;
+    }
+
+    .finishing__info-list {
+        gap: 18px 14px;
+        margin-bottom: 23px;
+    }
+
+    .finishing__info-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .materials .container {
+        margin-bottom: 85px;
+    }
+
+    .communications__card-bottom {
+        padding: 16px;
+    }
+
+    .slider-built-cottages {
+        height: 958px;
+    }
+
+    .slider-built-cottages__inner {
+        gap: 14px 10px;
+    }
+
+    .cottages {
+        padding: 16px 0 59px 0;
+    }
+
+    .cottages__content {
+        min-height: 1031px;
+        margin-bottom: 107px;
+    }
+
+    .reviews-residents__inner .title-navigation {
+        margin-bottom: 26px;
+    }
+
+    .bid-2 {
+        padding: 56px 0 100px 0;
+        margin-bottom: 60px;
+    }
+
+    .bid__wrapper {
+        gap: 34px;
+    }
+
+    .latest-news {
+        padding: 56px 0 159px 0;
+        margin-bottom: 62px;
+    }
+ 
+}
