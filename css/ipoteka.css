@@ -1,0 +1,200 @@
+/* IPOTEKA */
+
+.social-like span {
+    display: none;
+}
+
+.ipoteka__header {
+    padding: 0 0 80px 0;
+}
+
+.last-news {
+    font-size: 60px;
+    color:#fff;
+    padding: 40px 0 41px 0;
+    text-align: center;
+}
+
+.crumbs__wrap {
+    margin: 0 0 0 0;
+    padding: 0px 0;
+    border-bottom: none;
+}
+
+.crumbs {
+    position: relative;
+    display: flex;
+    padding: 17px 0 17px 0;
+   
+}
+
+.crumbs::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    background: #fff;
+    left: 0;
+    height: 1px;
+    opacity: 0.15;
+    right: 0;
+}
+
+.crumbs::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background: #fff;
+    left: 0;
+    height: 1px;
+    opacity: 0.15;
+    right: 0;
+}
+
+.crumbs li {
+    position: relative;
+    padding: 0 36px 0 0;
+}
+
+.crumbs li::before {
+    content: '';
+    color:#fff;
+    position: absolute;
+    top: 29%;
+    background: #fff;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    right: 14px;
+}
+
+
+.crumbs li:last-child::before {
+    display: none;
+}
+
+.crumbs li a {
+    color:#fff;
+}
+
+
+.crumbs li a.active {
+    opacity: 0.5;
+}
+
+.header-cover_ipoteka {
+    padding: 167px 0 178px 0;
+    background: url(../images/bg-ipoteka.jpg) 0 0 no-repeat;
+    background-size: cover;
+}
+
+.ipoteka_block_title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.ipoteka_block_wrap {
+    display: flex;
+    margin: 0 -14px 0 -14px;
+}
+
+.ipoteka_block {
+    width: 33.3333333333%;
+    padding: 0 14px;
+
+}
+
+.ipoteka_inner {
+    position: relative;
+    padding: 28px 28px 28px 28px;
+}
+
+.ipoteka_inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    background: #fff;
+    left: 0;
+    bottom: 0;
+    opacity: 0.1;
+    right: 0;
+    border-radius: 14px;
+}
+
+.ipoteka_icon {
+    padding: 0 0 18px 0;
+}
+
+.ipoteka_section {
+    background: #fff;
+    padding: 100px 0 246px 0;
+    margin-top: -100px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.ipdoc_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -14px 0 -14px;
+}
+
+.ipdoc__block {
+    width: 33%;
+    padding: 0 14px;
+}
+
+.ipdoc__block2 {
+    width: 67%;
+    padding: 0 14px;
+
+}
+
+.ipdoc__inner {
+    background: #F0F4FB;
+    padding: 28px 20px 24px 28px;
+    border-radius: 12px;
+    margin: 0 0 33px 0;
+}
+
+.ipdoc_body {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    color: #888e93;
+}
+
+.ipdoc_title {
+    margin: 0 0 50px 0;
+}
+
+.ipdoc_media {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+
+.ipdoc_media_icon {
+    margin: 0 14px 0 0;
+}
+
+.ipdoc_media_title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2C2C2C;
+}
+
+.bid__form {
+    background-color: #fff;
+    padding: 26px;
+}
+
+.main__inner {
+    padding: 0;
+}
+
+.our-contacts__item:last-child {
+    padding: 18px 28px 18px 18px;
+}

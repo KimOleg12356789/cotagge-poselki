@@ -1,0 +1,116 @@
+@media (max-width: 1200px) {
+    .main {
+        padding: 237px 0 0 0;
+    }
+}
+
+@media (max-width: 1173px) {
+    .main {
+        padding: 300px 0 0 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .plan-nav__title {
+        letter-spacing: -3px;
+        color: #fff;
+    }
+}
+
+@media (max-width: 615px) {
+    .contact__number {
+        display: none;
+    }
+}
+
+@media (max-width: 769px) {
+    .main {
+        padding: 209px 0 0 0;
+    }
+}
+
+@media (max-width: 720px) {
+    .plan__content-conteainer {
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .circles-container {
+        gap: 20px;
+    }
+
+    .plan__circle {
+        margin: auto;
+    }
+}
+
+@media (max-width: 415px) {
+
+    .crumbs__wrap { 
+        padding: 6px 0;
+    }
+
+    .plan {
+        padding: 61px 0 77px 0;
+        background-image: url(../images/page/masterPlan.svg);
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+    }
+
+    .plan-nav__list {
+        width: 100%;
+    }
+
+    .plan-nav__item:nth-child(3) {
+        margin-left: auto;
+    }
+
+    .masterPlan__container {
+        transition: all 0.3s ease-in-out;
+    }
+
+    .masterPlan__container.active {
+        margin-bottom: 50px;
+    }
+
+    .plan__content-card__container {
+        width: 100%;
+        height: 150px;
+    }
+
+    .plan__content-card {
+        margin: 0;
+    }
+
+    .plan__content-conteainer__link {
+        display: none;
+    }
+
+    .plan__content {
+        margin-bottom: 0;
+        padding: 96px 0 36px 0;
+    }
+
+    .bid-2 {
+        padding: 57px 0 55px 0;
+        margin-bottom: 100px;
+    }
+
+    .bid__wrapper {
+        gap: 36px;
+    }
+
+    .form-info {
+        gap: 10px;
+    }
+
+    .latest-news {
+        padding: 59px 0 100px 0;
+    }
+
+    .our-contacts {
+        margin-top: -138px;
+    }
+}
